@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="style sheet" href="./styles.css">
+</head>
+<body>
+    <center><h1>TRAVEL</h1></center>
+    <p>Travel and tourism is about going to new places for fun, rest, and learning. It lets us see nice views, meet kind people, from all over the world.</p>
+<h2>Things to Do in Order</h2>
+  <ol>
+    <li>Book flight tickets and hotel</li>
+    <li>Pack clothes and documents</li>
+    <li>Arrive at the airport</li>
+    <li>Check into the hotel</li>
+    <li>Explore local attractions</li>
+  </ol>
+  <h3>useful links</h3>
+  <a href="https://support.google.com/maps/answer/3092445?hl=en&co=GENIE.Platform%3DAndroid">map</a><br>
+  <a href="https://www.kayak.co.in/stays?lang=en&aid=130827228637&gclid=EAIaIQobChMIxtbEouX0lQMV_y-DAx2aizLZEAAYASAAEgJpGfD_BwE">book hotels</a>
+<h2>Available Tour Packages</h2>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Package Name</th>
+      <th>Destination</th>
+      <th>Duration</th>
+      <th>&#877;price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beach Getaway</td>
+      <td>Goa, India</td>
+      <td>4 Days</td>
+      <td>&#877;12,000</td>
+    </tr>
+    <tr>
+      <td>Mountain Trek</td>
+      <td>Manali, India</td>
+      <td>6 Days</td>
+      <td>25,000</td>
+    </tr>
+    <tr>
+      <td>Cultural Heritage</td>
+      <td>Jaipur, India</td>
+      <td>3 Days</td>
+      <td>20,000</td><br>
+    </tr>
+    </tbody>
+    </table><br>
+    <h2>image</h2>
+ <img src="c:\Users\user\Downloads\miami-bayside-marketplace.jpg" height="200px" width="200px">
+ <img src="c:\Users\user\Downloads\alexey-turenkov-bWJiSZjIgTM-unsplash (1).jpg" height="200px" width="200px">
+ <img src="c:\Users\user\Downloads\sarang-pande-IijeyJbmrec-unsplash.jpg" height="200px" width="200px"><br>
+ <center>
+  <h2>video</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/25AiXy8e09E?si=c_fAbMKSM18ImwSu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
+<form action="/submit-booking" method="POST">
+    
+    <h2>Trip Reservation</h2><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br>
+        <label for="date">Travel Date:</label>
+        <input type="date" id="date" name="travel_date" required><br>
+    <label for="members">Total Members:</label>
+    <input type="number" id="members" name="members" min="1" value="1" required><br>
+    <input type="submit" value="book tour">
+</form>
+</body>
+</html>
